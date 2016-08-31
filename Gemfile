@@ -1,6 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
-
+require 'capybara'
+require 'capybara/dsl'
 # gem "rails"
 
 gem 'sinatra'
